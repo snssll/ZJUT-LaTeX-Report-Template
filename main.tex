@@ -1,0 +1,40 @@
+\documentclass[12pt]{ctexart}
+\input{style/basic.tex}
+\graphicspath{ {images/} }
+
+\begin{document}
+
+% --- cover page ---
+\input{pages/cover}
+
+% --- abstract ---
+\newpage \section*{摘要}
+
+这是摘要内容。
+
+\textbf{关键词：} 关键词一；关键词二；关键词三
+
+% --- copyright ---
+\input{pages/copyright}
+
+% --- table of contents ---
+\newpage \tableofcontents
+
+% --- main body ---
+\newpage
+\section{引言}
+这里是引言。
+
+\section{实验部分}
+这里是实验部分。
+
+\section{结果讨论}
+这里是结果讨论。
+
+\section{总结}
+这里是总结。
+
+% --- references ---
+\input{pages/references}
+
+\end{document}
